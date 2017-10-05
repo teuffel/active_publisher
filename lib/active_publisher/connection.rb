@@ -56,6 +56,7 @@ module ActivePublisher
         :tls_key                       => ::ActivePublisher.configuration.tls_key,
         :user                          => ::ActivePublisher.configuration.username,
         :verify_peer                   => ::ActivePublisher.configuration.verify_peer,
+        :vhost                         => ::ActivePublisher.configuration.virtual_host,
       }
     end
     private_class_method :connection_options
